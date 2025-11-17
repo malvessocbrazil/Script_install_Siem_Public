@@ -75,7 +75,6 @@ mongodb_max_connections = 1000
 
 job_scheduler_concurrency_limits = event-processor-execution-v1:2,notification-execution-v1:2
 
-## - OpenSearch / Elasticsearch connection --
 elasticsearch_hosts = http://127.0.0.1:8200
 
 elasticsearch_connect_timeout = 10s
@@ -87,6 +86,8 @@ elasticsearch_max_total_connections = 200
 elasticsearch_max_total_connections_per_route = 20
 
 elasticsearch_discovery_enabled = false
+
+datanode_enabled = false
 
 
 📂 2. Configuração do OpenSearch
