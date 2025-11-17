@@ -1,4 +1,5 @@
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/606ef7cd-d8d4-4d05-85c2-a01767926d33" />
+<img width="1128" height="191" alt="image" src="https://github.com/user-attachments/assets/28b4e2b2-de95-462f-b515-af4ec2013732" />
+
 
 
 🛠️ Importante – Ajustes Após a Instalação
