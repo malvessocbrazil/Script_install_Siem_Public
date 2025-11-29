@@ -78,7 +78,7 @@ root_timezone = America/Sao_Paulo
 is_master = true
 node_id_file = /etc/graylog/server/node-id
 elasticsearch_hosts = http://localhost:8200
-http_bind_address = 0.0.0.0:9000
+http_bind_address = 0.0.0.0:8000
 EOF
 
 sudo systemctl enable graylog-server
@@ -152,6 +152,7 @@ echo ""
 echo "======================================"
 echo "       INSTALAÇÃO FINALIZADA          "
 echo "======================================"
-echo "Grafana está rodando na porta 3000."
-echo "Usuário admin: admin"
-echo "Senha definida com sucesso."
+echo " - OpenSearch (puro):     http://<IP>:8200"
+echo " - Wazuh Dashboard:       https://<IP>"
+echo " - Graylog:               http://<IP>:8000"
+echo " - Grafana:               http://<IP>:3000"
